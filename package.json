@@ -1,0 +1,14 @@
+{
+  "name": "closure-library",
+  "private": "true",
+  "description": "Closure JS library (experimental test runner)",
+  "dependencies": {
+    "glob": "3.2.7",
+    "phantomjs": "1.9.2-5",
+    "q": "0.9.7"
+  },
+  "scripts": {
+    "test": "node closure/bin/test/test.js"
+  }
+}
+  
